@@ -19,7 +19,7 @@ app.get('/course', (req, res) => {
 
 app.get('/course/:id', (req, res) => {
     const id = req.params.id;
-    console.log(id);
+
     const categori = category.find(cg => cg.id == id);
 
     res.send(categori);
@@ -45,7 +45,6 @@ app.get('/category/:id', (req, res) => {
 //         res.send(category_News);
 //     }
 // })
-
 app.listen(port, () => {
     console.log(`Educare is running on Port ${port}`);
 })
