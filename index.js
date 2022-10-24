@@ -44,7 +44,7 @@ app.get('/category/:id', (req, res) => {
 //         const category_News = news.filter(n => n.category_id === id);
 //         res.send(category_News);
 //     }
-// })
+// }) 
 app.listen(port, () => {
     console.log(`Educare is running on Port ${port}`);
 })
