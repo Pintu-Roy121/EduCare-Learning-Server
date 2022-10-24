@@ -1,0 +1,37 @@
+[
+    {
+        "id": "01",
+        "name": "Programming Fundamental",
+        "course_img": "https://cdn.educba.com/academy/wp-content/uploads/2016/02/fundamentals-of-programming.jpg"
+    },
+    {
+        "id": "02",
+        "name": "Software Development",
+        "course_img": "https://www.flexsin.com/blog/wp-content/uploads/2019/12/Custom-Software-Development.jpg"
+    },
+    {
+        "id": "03",
+        "name": "Web Development",
+        "course_img": "https://www.elegantthemes.com/blog/wp-content/uploads/2018/12/top11.png"
+    },
+    {
+        "id": "04",
+        "name": "Artificial Intelligence",
+        "course_img": "https://medcitynews.com/uploads/2021/03/GettyImages-1206796363.jpg"
+    },
+    {
+        "id": "05",
+        "name": "Data Science",
+        "course_img": "https://community.nasscom.in/sites/default/files/media/images/DATA%20SCIENCE%20MODEL.jpg"
+    },
+    {
+        "id": "06",
+        "name": "Databased management",
+        "course_img": "https://s7280.pcdn.co/wp-content/uploads/2016/06/database-blue.png"
+    },
+    {
+        "id": "07",
+        "name": "IT Security",
+        "course_img": "https://www.dotmagazine.online/_Resources/Persistent/9/3/e/e/93ee6a9be8b75468188369e1cade21133644426e/iStock-901609212-1000x562-720x405.jpg"
+    }
+]
