@@ -6,11 +6,11 @@ const port = process.env.PORT || 5000;
 
 app.use(cors());
 
-const category = require('./data/coursesCategory.json')
-const allCategory = require('./data/allCourses.json')
+const allCategory = require('./data/coursesCategory.json')
+const allCourse = require('./data/allCourses.json')
 
 app.get('/', (req, res) => {
-    res.send('EduCare server is running update');
+    res.send('EduCare server is running');
 });
 
 app.get('/course', (req, res) => {
@@ -20,18 +20,22 @@ app.get('/course', (req, res) => {
 app.get('/course/:id', (req, res) => {
     const id = req.params.id;
 
-    const categori = category.find(cg => cg.id == id);
+    const category = allCategory.find(category => category.id === id);
 
-    res.send(categori);
+    res.send(category);
+})
+
+app.get('/allcourses', (req, res) => {
+    res.send(allCourse);
 })
 
 app.get('/category/:id', (req, res) => {
     const id = req.params.id;
     console.log(id);
 
-    const selectedProduct = allCategory.filter(catagory => catagory.category_id === id)
+    const selectedCourse = allCourse.filter(course => course.category_id === id)
 
-    res.send(selectedProduct);
+    res.send(selectedCourse);
 })
 
 // app.get('/category/:id', (req, res) => {
