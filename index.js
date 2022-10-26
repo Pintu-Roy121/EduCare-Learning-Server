@@ -13,8 +13,8 @@ app.get('/', (req, res) => {
     res.send('EduCare server is running');
 });
 
-app.get('/course', (req, res) => {
-    res.send(category);
+app.get('/category', (req, res) => {
+    res.send(allCategory);
 })
 
 app.get('/course/:id', (req, res) => {

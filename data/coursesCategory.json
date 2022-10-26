@@ -33,5 +33,10 @@
         "id": "07",
         "name": "IT Security",
         "course_img": "https://www.dotmagazine.online/_Resources/Persistent/9/3/e/e/93ee6a9be8b75468188369e1cade21133644426e/iStock-901609212-1000x562-720x405.jpg"
+    },
+    {
+        "id": "08",
+        "name": "All Alcourses",
+        "course_img": "https://www.dotmagazine.online/_Resources/Persistent/9/3/e/e/93ee6a9be8b75468188369e1cade21133644426e/iStock-901609212-1000x562-720x405.jpg"
     }
 ]
